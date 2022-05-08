@@ -1,3 +1,25 @@
+# About the project:
+ This project uses spotify api to create a serch function for artist images. 
+ It expands on the uses of spotify api, making it possible to retrieve user information and spotify data .
+ This project can be broadly divided in to two parts, on is the actual search functionality and the other is the login page.
+ 
+# about Login Page:
+ For the login part, 'accounts.spotify/authorizeis is used to get the user data in the form of a token, which is stored in the local storage. We use this stored token to create a feedback loop which makes it possible so the the user doesn't have to login everytime they refresh the page.
+
+Login page:
+![image](https://user-images.githubusercontent.com/60610819/167289734-9b022b50-c8a5-475a-ac30-6a88e23b9c65.png)
+Authentication page:
+![image](https://user-images.githubusercontent.com/60610819/167289772-a6bb5a51-b2db-45cb-8207-7023cbac2609.png)
+
+# about Search page:
+For the searching part, spotify_api is used to retrieve artists information, from which the image part is extracted and rendered on to teh page
+![image](https://user-images.githubusercontent.com/60610819/167289819-34521a96-4055-42b1-9f29-a7a0a660f81a.png)
+
+# to run the app:
+open up a new console and go to the directory where the file exists.
+in the console, type in: npm start.
+This will redirect to a localhost link which where the app is rendered
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
