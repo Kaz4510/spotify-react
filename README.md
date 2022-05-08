@@ -19,12 +19,13 @@ For the searching part, spotify_api is used to retrieve artists information, fro
 
 search page:
 
-![image](https://user-images.githubusercontent.com/60610819/167289819-34521a96-4055-42b1-9f29-a7a0a660f81a.png)
+![image](https://user-images.githubusercontent.com/60610819/167290114-72ddf666-df38-4176-9e7c-2a17d86a8d19.png)
 
 # to run the app:
 open up a new console and go to the directory where the file exists.
 in the console, type in: npm start.
 This will redirect to a localhost link which where the app is rendered
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
